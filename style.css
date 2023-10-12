@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background: #2F1893;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerDiv {
+    /* background: #fff; */
+    /* display: flex; */
+    width: 100%;
+    max-width: 1000px;
+}
+
+.symbol a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: -0.293px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navLinks ul {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
+
+.navLinks ul li {
+    list-style: none;
+
+
+}
+
+.navLinks ul li a {
+    /* list-style: none; */
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: 'DM Sans', sans-serif;
+
+
+}
+
+.Overview {
+    opacity: 0.3;
+}
+
+.purchaseBtn {
+    border-radius: 100px;
+    background: #E93A7D;
+    /* padding: 25px; */
+    width: 120px;
+    height: 40px;
+    border: none;
+
+}
+
+.content {
+    display: flex;
+    margin-top: 5rem;
+    /* flex-basis: 50%; */
+    /* border: 2px solid; */
+}
+
+.message {
+    flex-basis: 50%;
+}
+
+.msgHeading {
+    margin-top: 30px;
+}
+
+.msgHeading h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.msgH5 {
+    margin-top: 25px;
+}
+
+.msgH5 h5 {
+    font-size: 22px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.learMoreBtn {
+    margin-top: 45px;
+}
+
+.learnBtn {
+    width: 157px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #E93A7D;
+    border: none;
+}
+
+.learnBtn a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.loginForm {
+    flex-basis: 50%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.loginFormInnerDiv {
+    padding: 2rem 3rem;
+}
+
+.signUP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUP h3 {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+.inputField{
+    margin-top: 30px !important;
+}
+
+.inputField input {
+    width: 100% !important;
+    height: 50px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    /* margin-top: 15px; */
+    padding-left: 25px;
+}
+.password{
+    margin-top: 20px !important;
+}
+.termAndServices{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+}
+.signInBtn{
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    width: 100%;
+    background: #482BE7;
+}
+.signInBtn a{
+    text-decoration: none;
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+color: #fff;
+line-height: 26px;
+}
+.or p{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color:  rgba(21, 20, 57, 0.40);
+line-height: 26px;
+opacity: 0.9;
+/* margin: 0 0px; */
+}
+.loginBtn{
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    width: 100%;
+    background: #1DA1F2;
+}
+.loginBtn a{
+    text-decoration: none;
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+color: #fff;
+line-height: 26px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.Account article{
+    font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+color:  rgba(21, 20, 57, 0.40);
+}
+.SignIN article{
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+color: #25DAC5;
+margin-left: 10px;
+}
